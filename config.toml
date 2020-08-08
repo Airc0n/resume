@@ -1,0 +1,272 @@
+baseURL = "https://aircon.tw/resume/"
+languageCode = "zh-TW"
+title = "陳信璿的履歷"
+theme = "hugo-devresume-theme"
+
+
+[params]
+    author = "Aircon Chen"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#212121"
+    textPrimaryColor = "#515151"
+
+
+
+    [params.summary]
+        enable = false
+        text = "How are you"
+
+    [params.profile]
+        enable = true
+        name = "陳信璿"
+        tagline = "Pr. Backend Engineer"
+        avatar = "avatar.jpg"
+
+
+    [params.contact]
+        enable = true
+        location = "台北"
+
+        #[[params.contact.list]]
+        #icon = "fas fa-phone-square"
+        #url = "tel:#"
+        #text = "0955-929-475"
+        
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:aircon.chen@gmail.com"
+        text = "aircon.chen@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://aircon.tw/resume/"
+        text = "https://aircon.tw/resume/"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "資訊管理"
+        university = "國立東華大學"
+        dates = "2006 - 2010"
+        [[params.education.list]]
+        degree = "普通科"
+        university = "徐匯中學"
+        dates = "2000 - 2006"
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "後端技術(Backend)"
+        [[params.skills.list.items]]
+        details = "Python/Java/PHP"
+        [[params.skills.list.items]]
+        details = "Django/Spring/Laravel"
+
+        [[params.skills.list]]
+        title = "前端技術(Frontend)"
+        [[params.skills.list.items]]
+        details = "HTML/CSS/Javascript/jQuery"
+        [[params.skills.list.items]]
+        details = "Vue.js"
+        [[params.skills.list.items]]
+        details = "SASS/LESS"
+        [[params.skills.list.items]]
+        details = "Webpack"
+
+        [[params.skills.list]]
+        title = "資料庫(Database)"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL/MariaDB/MS-SQL/Oracle DB"
+        [[params.skills.list.items]]
+        details = "MongoDB/Redis"
+
+        [[params.skills.list]]
+        title = "版本控管(VCS)"
+        [[params.skills.list.items]]
+        details = "Gitlab/Github/Bitbucket"
+        [[params.skills.list.items]]
+        details = "SVN/Bitbucket/Gitea"
+
+
+        [[params.skills.list]]
+        title = "CI/CD"
+        [[params.skills.list.items]]
+        details = "Jenkins/Jenkins DSL/Docker/Vagrant/Ansible/Packer"
+        [[params.skills.list.items]]
+        details = "SVN/Bitbucket/Gitea"
+
+        [[params.skills.list]]
+        title = "Serverless"
+        [[params.skills.list.items]]
+        details = "Serverless/AWS Labmda "
+        
+
+
+
+
+
+
+
+    #[params.awards]
+    #    enable = false
+    #
+    #    [[params.awards.list]]
+    #    name = "Award Lorem Ipsum"
+    #    body = "Microsoft lorem ipsum"
+    #    date = "2019"
+    #    [[params.awards.list]]
+    #    name = "Award Donec Sodales"
+    #    body = "Oracle Aenean"
+    #    date = "2017"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "中文"
+        level = "專業"
+        [[params.languages.list]]
+        name = "英文"
+        level = "可應答"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "攝影"
+        [[params.interests.list]]
+        name = "健身"
+        [[params.interests.list]]
+        name = "棒壘球"
+        [[params.interests.list]]
+        name = "騎重機"
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Pr. Backend Engineer"
+        dates = "2018 - Present"
+        company = "HTC"
+        details = ""
+        [[params.experience.list]]
+        title = "Sr. Backend Engineer"
+        dates = "2016 - 2018"
+        company = "HTC"
+        details = "負責 htc.com/ vive.com 和相關子網站的需求訪談，開發設計及維運，除了確保功能正常外，也會不斷的回頭審視系統進行流程優化及改良。"
+        [[params.experience.list.items]]
+        details = "###### 內容管理系統(CMS)\r\n - 負責 需求訪談/系統設計/程式開發/教育訓練/架構優化/效能調整/程式部署/溝通協調內部開發/code review/版本控管規劃 \r\n - 使用技術: python/Django/wagtail/ Restful API style/postgreSQL/MongoDB/ Redis/Memcached/Nginx"
+        [[params.experience.list.items]]
+        details = "###### 系統品質測試(QA)\r\n - 負責 單元測試/整合測試/自動化測試\r\n - 使用技術: python/pytest/selenium/jenkins/robot framework"
+        [[params.experience.list.items]]
+        details = "###### 系統可靠性調整(OPS/SRE)\r\n - 負責流程優化/部署效能調校/災害停機復原流程規劃及操作/系統備份\r\n - 使用技術: gitlab/jenkins/jenkins DSL/ansible/packer/shell script"
+        [[params.experience.list.items]]
+        details = "###### 內部支持工具(Sustain Tool)\r\n - 負責 需求訪談/系統設計/程式開發/架構優化/效能調整 \r\n - 使用技術: Lambda API/Cloud watch/serverless/php/javascript/webpack"
+
+        [[params.experience.list]]
+        title = ""
+        dates = ""
+        company = ""
+        details = "------"
+
+        [[params.experience.list]]
+        title = "資訊工程師"
+        dates = "2011 - 2016"
+        company = "台塑網科技"
+        details = ""
+        [[params.experience.list.items]]
+        details = "###### 採購管理系統(PMS)\r\n - 完成專案: 恩主公醫院/北醫/正崴/​唐榮​/中石化/李長榮/統一 \r\n - 負責需求訪談/系統設計/程式開發/系統導入/教育訓練 \r\n - 使用技術 UML/java/spring/iBatis/ Oracle DB/ MySQL/MS-SQL"
+        [[params.experience.list.items]]
+        details = "###### 供應鏈系統(SCM)\r\n - 完成專案: 日月光/​台勵福​/撼訊/宏福 \r\n - 負責需求訪談/系統設計/程式開發/系統導入/教育訓練 \r\n - 使用技術 UML/java/spring/iBatis/ Oracle DB/ MySQL/MS-SQL "
+        [[params.experience.list.items]]
+        details = "###### 客戶關係管理系統(CRM)\r\n - 完成專案: 台塑集團 \r\n - 負責程式開發/介面設計 \r\n - 使用技術: java/spring framework/iBatis/ Oracle DB"
+        [[params.experience.list.items]]
+        details = "###### 競標系統 \r\n - 完成專案: 正崴/旺宏/統一 \r\n - 負責 導入/教育訓練"
+        [[params.experience.list.items]]
+        details = "###### App開發 \r\n - 完成專案: 台塑採購通知APP \r\n - 負責 需求訪談/系統設計/時程規劃/上線行銷及廠商教育訓練"
+        [[params.experience.list.items]]
+        details = "###### 世界展望會資助系統 \r\n - 負責 需求訪談/系統設計/程式開發/系統導入 \r\n - 使用技術: java/spring framework/iBatis"
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "視譜練習App"
+        meta = "Side Project"
+        tagline = "以自己的需求轉化成app，並幫助許多家長讓小孩用手機做有意義的練習，現在仍在ios apple store上獲得不錯的迴響。"
+
+        [[params.projects.list]]
+        title = "ptt 柴犬產生器App"
+        meta = "Side Project"
+        tagline = "以ptt為需求單位，短時間內做出方便以柴犬圖疊字後產圖做回文的app，下載熱度曾超過 wechat 排名，Android及ios平台都有上架獲得不錯的迴響，名部落格寫手也曾寫文推薦過，至今仍不斷收到Google廣告的收入。"
+
+        [[params.projects.list]]
+        title = "鹿樂-偏鄉教育群力平台"
+        meta = "Side Project"
+        tagline = "政大教授發起的一個偏鄉教育的推廣平台，用python及Django開發，並串接Goolge Youtube API 及 舊資料的轉換/架構重整"
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/airc0n"
+        title = "airc0n"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//www.linkedin.com/in/airc0n/"
+        title = "Aircon Chen"
+
+
+
+
+
+
