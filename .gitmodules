@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:Airc0n/resume.git
+	branch = gh-pages
